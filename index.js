@@ -6,6 +6,10 @@ var extend = require('extend-shallow');
 
 module.exports = function(options, cb) {
   return co(function*() {
+    if (typeof options === 'string') {
+      options = {repo: options};
+    }
+
     var opts = extend({}, options);
     if (!opts.repo && !opts.maintainer) {
       throw new Error('expected "options.repo" or "options.maintainer" to be set');
