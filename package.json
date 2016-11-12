@@ -22,5 +22,10 @@
   },
   "keywords": [
     "downloads"
-  ]
+  ],
+  "dependencies": {
+    "co": "^4.6.0",
+    "extend-shallow": "^2.0.1",
+    "npm-api": "^0.4.8"
+  }
 }
