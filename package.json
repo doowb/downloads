@@ -11,7 +11,8 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ],
   "main": "index.js",
   "engines": {
@@ -20,9 +21,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "downloads"
-  ],
   "dependencies": {
     "co": "^4.6.0",
     "co-limiter": "^1.0.3",
@@ -35,6 +33,24 @@
     "gulp-format-md": "^0.1.11",
     "mocha": "^3.1.2"
   },
+  "keywords": [
+    "counts",
+    "download",
+    "download-counts",
+    "download-stats",
+    "downloads",
+    "maintainer",
+    "maintainer-downloads",
+    "module-downloads",
+    "npm-counts",
+    "npm-downloads",
+    "package-downloads",
+    "repo",
+    "repo-downloads",
+    "repository",
+    "repository-downloads",
+    "stats"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
