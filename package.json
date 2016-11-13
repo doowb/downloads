@@ -32,7 +32,8 @@
   },
   "devDependencies": {
     "download-stats": "^0.3.1",
-    "gulp-format-md": "^0.1.11"
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.1.2"
   },
   "verb": {
     "toc": false,
