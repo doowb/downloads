@@ -62,6 +62,15 @@
     ],
     "lint": {
       "reflinks": true
-    }
+    },
+    "related": {
+      "list": [
+        "npm-api"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
